@@ -8,7 +8,7 @@
       a {
         margin-right: 1.56vw;
         font-family: Open Sans;
-        font-size: 1.269vw;
+        font-size: 16px;
         font-weight: 400;
         line-height: 16.34px;
         text-align: left;
@@ -27,7 +27,7 @@
       a {
         margin-right: 1.56vw;
         font-family: Open Sans;
-        font-size: 1.269vw;
+        font-size: 16px;
         font-weight: 400;
         line-height: 16.34px;
         text-align: left;
@@ -35,6 +35,37 @@
         &:last-child {
           margin-right: 0;
         }
+      }
+    }
+  }
+
+  &__header {
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__box {
+      padding: 12px;
+      border: 2px solid #00000029;
+      border-radius: 15px;
+      background-color: #00000008;
+      gap: 14px;
+      display: flex;
+      align-items: center;
+
+      &-select {
+        border: none;
+        background-color: transparent;
+        outline: none;
+      }
+      &-input {
+        border: none;
+        background-color: transparent;
+        outline: none;
+      }
+
+      &-right {
+        gap: 15px;
       }
     }
   }
