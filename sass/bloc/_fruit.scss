@@ -1,0 +1,444 @@
+.fruit {
+  margin-bottom: 48px;
+  .container {
+    width: 100%;
+  }
+
+  &__topbox {
+    display: flex;
+
+    &-link {
+      font-family: Open Sans;
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 16.34px;
+      text-align: left;
+      color: $qora;
+      opacity: 70%;
+      margin-right: 10px;
+      padding-top: 16px;
+      padding-bottom: 16px;
+
+      &:hover {
+        opacity: 100%;
+      }
+    }
+  }
+
+  &__box {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &-title {
+      font-family: Poppins;
+      font-size: 32px;
+      font-weight: 600;
+      line-height: 48px;
+      text-align: left;
+    }
+
+    &-list {
+      display: flex;
+    }
+
+    &-item {
+      display: flex;
+      align-items: center;
+      margin-left: 15px;
+
+      img {
+        margin-right: 5px;
+        margin-top: 8px;
+        margin-bottom: 8px;
+      }
+    }
+  }
+
+  &__list {
+    display: flex;
+    justify-content: space-between;
+    &-item {
+      border-radius: 20px;
+      padding: 20px;
+      background: url(../../images/fruit-bg.png) no-repeat;
+      background-size: cover;
+      width: 47vw;
+      height: 30vw;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: start;
+
+      &:last-child {
+        background: url(../../images/fruit-bgg.png) no-repeat;
+        background-size: cover;
+      }
+    }
+
+    &-span {
+      background-color: $oq;
+      padding: 1px 8px;
+      border-radius: 15px;
+      color: $textt;
+    }
+
+    &-title {
+      width: 30.7vw;
+      font-family: Poppins;
+      font-size: 1.965vw;
+      font-weight: 600;
+      line-height: 33px;
+      text-align: left;
+      color: $oq;
+      margin-bottom: 10px;
+      text-shadow: 0 0 10px $qora;
+    }
+
+    &-subbox {
+      display: flex;
+      align-items: center;
+      color: $oq;
+    }
+
+    &-img {
+      margin-right: 10px;
+      width: 2.46vw;
+    }
+
+    &-text,
+    &-time {
+      font-size: 1.23vw;
+    }
+  }
+}
+
+@media screen and (max-width: 761px) {
+  .fruit {
+    .container {
+      width: 100%;
+    }
+
+    &__topbox {
+      display: flex;
+
+      &-link {
+        font-family: Open Sans;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 16.34px;
+        text-align: left;
+        color: $qora;
+        opacity: 70%;
+        margin-right: 10px;
+        padding-top: 16px;
+        padding-bottom: 16px;
+
+        &:hover {
+          opacity: 100%;
+        }
+      }
+    }
+
+    &__box {
+      margin-bottom: 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      &-title {
+        font-family: Poppins;
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 48px;
+        text-align: left;
+      }
+
+      &-list {
+        display: flex;
+      }
+
+      &-item {
+        display: flex;
+        align-items: center;
+        margin-left: 15px;
+
+        img {
+          margin-right: 5px;
+          margin-top: 8px;
+          margin-bottom: 8px;
+        }
+      }
+    }
+
+    &__list {
+      display: flex;
+      flex-direction: column;
+      justify-content: none;
+      align-items: center;
+      gap: 30px;
+
+      &-item {
+        border-radius: 20px;
+        padding: 20px;
+        background: url(../../images/fruit-bg.png) no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 39vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        &:last-child {
+          background: url(../../images/fruit-bgg.png) no-repeat;
+          background-size: cover;
+        }
+      }
+
+      &-title {
+        width: 30.7vw;
+        font-family: Poppins;
+        font-size: 1.965vw;
+        font-weight: 600;
+        line-height: 33px;
+        text-align: left;
+        color: $oq;
+        margin-bottom: 10px;
+      }
+
+      &-subbox {
+        display: flex;
+        align-items: center;
+        color: $oq;
+      }
+
+      &-img {
+        margin-right: 10px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 685px) {
+  .fruit {
+    .container {
+      width: 100%;
+    }
+
+    &__topbox {
+      display: flex;
+
+      &-link {
+        font-family: Open Sans;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 16.34px;
+        text-align: left;
+        color: $qora;
+        opacity: 70%;
+        margin-right: 10px;
+        padding-top: 16px;
+        padding-bottom: 16px;
+
+        &:hover {
+          opacity: 100%;
+        }
+      }
+    }
+
+    &__box {
+      margin-bottom: 30px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+
+      &-title {
+        font-family: Poppins;
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 48px;
+        text-align: left;
+      }
+
+      &-list {
+        display: flex;
+      }
+
+      &-item {
+        display: flex;
+        align-items: center;
+        margin-left: 15px;
+
+        img {
+          margin-right: 5px;
+          margin-top: 8px;
+          margin-bottom: 8px;
+        }
+      }
+    }
+
+    &__list {
+      display: flex;
+      flex-direction: column;
+      justify-content: none;
+      align-items: center;
+      gap: 30px;
+
+      &-item {
+        border-radius: 20px;
+        padding: 20px;
+        background: url(../../images/fruit-bg.png) no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 58vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        &:last-child {
+          background: url(../../images/fruit-bgg.png) no-repeat;
+          background-size: cover;
+        }
+      }
+
+      &-title {
+        width: 39.7vw;
+        font-family: Poppins;
+        font-size: 2.965vw;
+        font-weight: 600;
+        line-height: 33px;
+        text-align: left;
+        color: $oq;
+        margin-bottom: 10px;
+      }
+
+      &-subbox {
+        display: flex;
+        align-items: center;
+        color: $oq;
+      }
+
+      &-img {
+        margin-right: 10px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .fruit {
+    .container {
+      width: 100%;
+    }
+
+    &__topbox {
+      display: flex;
+      justify-content: center;
+
+      &-link {
+        font-family: Open Sans;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 16.34px;
+        text-align: left;
+        color: $qora;
+        opacity: 70%;
+        margin-right: 10px;
+        padding-top: 16px;
+        padding-bottom: 16px;
+
+        &:hover {
+          opacity: 100%;
+        }
+
+        &:last-child {
+          margin-right: 0;
+        }
+      }
+    }
+
+    &__box {
+      margin-bottom: 30px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+
+      &-title {
+        font-family: Poppins;
+        font-size: 25px;
+        font-weight: 600;
+        line-height: 48px;
+        text-align: left;
+      }
+
+      &-list {
+        display: flex;
+      }
+
+      &-item {
+        display: flex;
+        align-items: center;
+        margin-left: 15px;
+
+        img {
+          margin-right: 5px;
+          margin-top: 8px;
+          margin-bottom: 8px;
+        }
+      }
+    }
+
+    &__list {
+      display: flex;
+      flex-direction: column;
+      justify-content: none;
+      align-items: center;
+      gap: 30px;
+
+      &-item {
+        border-radius: 20px;
+        padding: 20px;
+        background: url(../../images/fruit-bg.png) no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 78vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+        &:last-child {
+          background: url(../../images/fruit-bgg.png) no-repeat;
+          background-size: cover;
+        }
+      }
+
+      &-title {
+        width: 49.7vw;
+        font-family: Poppins;
+        font-size: 3.965vw;
+        font-weight: 600;
+        line-height: 33px;
+        text-align: center;
+        color: $oq;
+        margin-bottom: 10px;
+        margin-top: 30px;
+      }
+
+      &-subbox {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: $oq;
+      }
+
+      &-img {
+        margin-right: 10px;
+      }
+    }
+  }
+}
